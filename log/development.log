@@ -1,0 +1,84 @@
+Started GET "/" for 127.0.0.1 at 2018-02-27 11:47:45 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 560ms (Views: 547.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-27 11:50:14 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 656ms (Views: 643.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-27 11:51:02 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 244ms (Views: 221.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-27 12:51:14 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 438ms (Views: 422.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-27 12:52:52 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 716ms (Views: 693.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-27 12:53:31 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 751ms (Views: 652.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-28 09:33:49 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 379ms (Views: 362.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-28 10:39:00 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 320ms (Views: 307.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-28 10:45:15 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 325ms (Views: 313.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-28 10:48:23 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 41ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-28 10:57:59 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 293ms (Views: 274.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-28 10:58:34 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 146ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
