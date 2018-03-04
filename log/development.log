@@ -503,3 +503,445 @@ Processing by ShowsController#index as HTML
 Completed 200 OK in 340ms (Views: 325.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2018-03-04 18:58:34 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 267ms (Views: 254.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 18:58:57 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (6.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 101ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 18:59:12 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 66ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:05:09 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 290ms (Views: 277.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:07:14 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (8.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 175ms (Views: 160.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:07:33 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.8ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 109ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:10:03 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (21.4ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 257ms (Views: 236.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:12:53 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (11.9ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+Completed 200 OK in 243ms (Views: 226.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:14:35 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (18.5ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+Completed 200 OK in 233ms (Views: 215.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:15:05 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (6.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 78ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:15:35 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:15:43 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:16:42 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 68ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:16:52 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:19:46 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (6.9ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 203ms (Views: 181.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:20:07 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 127ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:22:25 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 56ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:31:38 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (5.0ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 92ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:40:08 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (4.7ms)
+  Rendered shared/_navbar.html.erb (3.1ms)
+Completed 200 OK in 91ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 19:59:13 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (257.6ms)
+Completed 500 Internal Server Error in 538ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `explain_path' for #<#<Class:0x007ffa236fa2a0>:0x007ffa237038f0>
+Did you mean?  expain_path):
+     7: 
+     8:     <!-- Collect the nav links, forms, and other content for toggling -->
+     9:     <ul class="nav navbar-nav navbar-right">
+    10:       <li><%= link_to 'Link', explain_path %></li>
+    11:     </ul>
+    12:   </div><!-- /.container-fluid -->
+    13: </nav>
+  
+app/views/shared/_navbar.html.erb:10:in `_app_views_shared__navbar_html_erb__2885392829873092347_70356190499440'
+app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___4179650625773616770_70356156568340'
+  Rendering /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (134.9ms)
+Started GET "/" for ::1 at 2018-03-04 19:59:16 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (353.5ms)
+Completed 500 Internal Server Error in 388ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `explain_path' for #<#<Class:0x007ffa236fa2a0>:0x007ffa28c207c0>
+Did you mean?  expain_path):
+     7: 
+     8:     <!-- Collect the nav links, forms, and other content for toggling -->
+     9:     <ul class="nav navbar-nav navbar-right">
+    10:       <li><%= link_to 'Link', explain_path %></li>
+    11:     </ul>
+    12:   </div><!-- /.container-fluid -->
+    13: </nav>
+  
+app/views/shared/_navbar.html.erb:10:in `_app_views_shared__navbar_html_erb__2885392829873092347_70356209307580'
+app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb___4179650625773616770_70356203096040'
+  Rendering /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.4ms)
+  Rendering /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/kanji/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (168.9ms)
+Started GET "/" for ::1 at 2018-03-04 19:59:45 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 52ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:00:19 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 55ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:00:24 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 48ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:00:27 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.5ms)
+Started GET "/explain" for ::1 at 2018-03-04 20:00:27 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 71ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 200ms (Views: 195.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:01:11 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 44ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:01:23 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+Completed 200 OK in 47ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:01:58 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+Completed 200 OK in 58ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:03:36 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 95ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:04:49 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 138ms (Views: 135.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:06:00 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 108ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:08:37 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 150ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:08:55 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 34ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:10:52 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 179ms (Views: 175.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:11:47 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 132ms (Views: 127.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:14:11 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 165ms (Views: 159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:15:03 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (4.2ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 86ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:17:48 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (4.6ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+Completed 200 OK in 317ms (Views: 263.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:18:07 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (5.2ms)
+Completed 200 OK in 232ms (Views: 224.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:19:19 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+Completed 200 OK in 153ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:31:46 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (26.1ms)
+  Rendered shared/_navbar.html.erb (4.3ms)
+Completed 200 OK in 382ms (Views: 321.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:32:24 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (21.9ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+Completed 200 OK in 127ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:33:32 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (4.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 77ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:33:46 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (13.3ms)
+  Rendered shared/_navbar.html.erb (3.4ms)
+Completed 200 OK in 144ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:35:25 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (21.2ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+Completed 200 OK in 226ms (Views: 218.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:35:52 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (27.0ms)
+  Rendered shared/_navbar.html.erb (7.0ms)
+Completed 200 OK in 331ms (Views: 302.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:37:09 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (21.1ms)
+  Rendered shared/_navbar.html.erb (3.0ms)
+Completed 200 OK in 296ms (Views: 238.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/explain" for ::1 at 2018-03-04 20:37:17 +0100
+Processing by ShowsController#explain as HTML
+  Rendering shows/explain.html.erb within layouts/application
+  Rendered shows/explain.html.erb within layouts/application (5.9ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+Completed 200 OK in 113ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-04 20:37:20 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/index.html.erb within layouts/application (32.5ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 272ms (Views: 244.8ms | ActiveRecord: 0.0ms)
+
+

@@ -1,11 +1,13 @@
 <div id="demo">
     <p id="subtitle" class="text-center text-info">&nbsp;</p>
 
-    <div id="wave-timeline"></div>
+    
 
     <div id="waveform">
         <!-- Here be waveform -->
     </div>
+
+    <div id="wave-timeline"></div>
 
     <!-- Zoom -->
     <p class="row">
@@ -23,7 +25,7 @@
     </p>
 
     <div class="row" style="margin: 30px 0">
-        <div class="col-sm-8">
+        <div class="col-sm-6">
             <ul>
                 <li>アドバイスしたい範囲をドラッグして選択。</li>
                 <li>選択してできたエリアをタップ。</li>
@@ -35,12 +37,12 @@
             <button class="btn btn-primary btn-block" data-action="play">
                 <span id="play">
                     <i class="glyphicon glyphicon-play"></i>
-                    Play
+                    再生
                 </span>
 
                 <span id="pause" style="display: none">
                     <i class="glyphicon glyphicon-pause"></i>
-                    Pause
+                    一時停止
                 </span>
             </button>
         </div>
@@ -48,7 +50,13 @@
         <div class="col-sm-2">
             <button class="btn btn-info btn-block" data-action="export" title="Export annotations to JSON" id = 'export'>
                 <i class="glyphicon glyphicon-file"></i>
-                Export
+                書き出し
+            </button>
+        </div>
+
+        <div class="col-sm-2">
+            <button class="btn btn-info btn-block" '>
+                <a href="mailto:sonoligo@gmail.com?subject=SonoLigo DEMO&amp;body=ご協力ありがとうございました。メールにデータを添付して送信をお願い致します。"><i class="glyphicon glyphicon-envelope"></i>メール</a>
             </button>
         </div>
     </div>
@@ -99,7 +107,7 @@
         </div>
 
         <button type="submit" class="btn btn-success btn-block">保存</button>
-        <center><i>or</i></center>
+        <center><i>または</i></center>
         <button type="button" class="btn btn-danger btn-block" data-action="delete-region">削除</button>
     </form>
 
@@ -173,11 +181,13 @@
         var wavesurfer = WaveSurfer.create({
             container: '#waveform',
             waveColor: 'black',
-            heigth: 200,
+            progressColor: '#555',
+            heigth: 400,
             pixelRation: 1,
             scrollParent: true,
             normalize: true,
             minimap: true
+
             // backend: 'MediaElemnt'
             // pluginsを加えると
             // plugins: [
@@ -203,7 +213,8 @@
 
           timeline.init({
             wavesurfer: wavesurfer,
-            container: '#wave-timeline'
+            container: '#wave-timeline',
+            height: '30'
           });
         });
 
@@ -382,6 +393,19 @@
         );
     }
 
+    // function randomColor(alpha) {
+    //     return (
+    //         'rgba(' +
+    //         [
+    //             ~~(Math.random() * 255),
+    //             ~~(Math.random() * 255),
+    //             ~~(Math.random() * 255),
+    //             alpha || 1
+    //         ] +
+    //         ')'
+    //     );
+    // }
+
     function setColor(alpha) {
         return (
             'rgba(' +
@@ -424,7 +448,7 @@
         {
         const blob = new Blob([ localStorage.regions ], { "type" : "json" })
         jQuery("<a></a>", {href: window.URL.createObjectURL(blob),
-            download: "aaa01.json",
+            download: "SLdemo_1.json",
             target: "_blank"})[0].click()
         });
 
