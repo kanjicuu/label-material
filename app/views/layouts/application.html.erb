@@ -12,15 +12,21 @@
 
     <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.7/wavesurfer.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.7/plugin/wavesurfer.timeline.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.7/plugin/wavesurfer.regions.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.7/plugin/wavesurfer.minimap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.4.0/wavesurfer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.4.0/plugin/wavesurfer.timeline.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.4.0/plugin/wavesurfer.regions.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.4.0/plugin/wavesurfer.minimap.min.js"></script>
 
 
   </head>
 
   <body>
-    <%= yield %>
+    <head>
+      <%= render 'shared/navbar' %>
+    </head>
+
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
