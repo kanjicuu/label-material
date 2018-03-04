@@ -26,11 +26,7 @@
 
     <div class="row" style="margin: 30px 0">
         <div class="col-sm-6">
-            <ul>
-                <li>アドバイスしたい範囲をドラッグして選択。</li>
-                <li>選択してできたエリアをタップ。</li>
-                <li>細かい範囲の調整、アドバイスの概要を選択、細かいコメントをしよう。</li>
-            </ul>
+            <h4><%= link_to '説明はこちらです。', explain_path %></h4>
         </div>
 
         <div class="col-sm-2">
@@ -82,10 +78,7 @@
         <div class="form-group">
             <label class = "control-label" for="label">ラベル</label>
             <div class= "row">
-                <div class="radio-inline">
-                    <input type="radio" name="advice" id="advice" value="0"  />
-                        <label for="advice">その他</label>
-                </div>
+                <p>音程</p>
                 <div class="radio-inline">
                     <input type="radio" name="advice" id="advice" value="1"  />
                         <label for="advice">音程が高い</label>
@@ -96,7 +89,55 @@
                 </div>
                 <div class="radio-inline">
                     <input type="radio" name="advice" id="advice" value="3" />
-                    <label for="advice">テンポが早い</label>
+                    <label for="advice">音程が不安定</label>
+                </div>
+            </div>
+
+            <div class= "row">
+                <p>技術</p>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="4"  />
+                        <label for="advice">音が大きい</label>
+                </div>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="5" />
+                    <label for="advice">音が小さい</label>
+                </div>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="6" />
+                    <label for="advice">バランスが悪い</label>
+                </div>
+            </div>
+
+            <div class= "row">
+                <p>表現</p>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="7"  />
+                        <label for="advice">ていねいに</label>
+                </div>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="8" />
+                    <label for="advice">軽やかに</label>
+                </div>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="9" />
+                    <label for="advice">重たい</label>
+                </div>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="10" />
+                    <label for="advice">テンポ感を持って</label>
+                </div>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="11" />
+                    <label for="advice">気持ちをこめて</label>
+                </div>
+            </div>
+
+            <div class= "row">
+                <p>その他</p>
+                <div class="radio-inline">
+                    <input type="radio" name="advice" id="advice" value="0"  />
+                        <label for="advice">その他</label>
                 </div>
             </div>
         </div>        
@@ -306,6 +347,14 @@
             $('[name=advice][value=1]').prop('checked',false);
             $('[name=advice][value=2]').prop('checked',false);
             $('[name=advice][value=3]').prop('checked',false);
+            $('[name=advice][value=4]').prop('checked',false);
+            $('[name=advice][value=5]').prop('checked',false);
+            $('[name=advice][value=6]').prop('checked',false);
+            $('[name=advice][value=7]').prop('checked',false);
+            $('[name=advice][value=8]').prop('checked',false);
+            $('[name=advice][value=9]').prop('checked',false);
+            $('[name=advice][value=10]').prop('checked',false);
+            $('[name=advice][value=11]').prop('checked',false);
         }
         if(region.data.advice=="0"){
             $('[name=advice][value=0]').prop('checked',true);
@@ -319,6 +368,31 @@
         if(region.data.advice=="3"){
             $('[name=advice][value=3]').prop('checked',true);
         }
+        if(region.data.advice=="4"){
+            $('[name=advice][value=4]').prop('checked',true);
+        }
+        if(region.data.advice=="5"){
+            $('[name=advice][value=5]').prop('checked',true);
+        }
+        if(region.data.advice=="6"){
+            $('[name=advice][value=6]').prop('checked',true);
+        }
+        if(region.data.advice=="7"){
+            $('[name=advice][value=7]').prop('checked',true);
+        }
+        if(region.data.advice=="8"){
+            $('[name=advice][value=8]').prop('checked',true);
+        }
+        if(region.data.advice=="9"){
+            $('[name=advice][value=9]').prop('checked',true);
+        }
+        if(region.data.advice=="10"){
+            $('[name=advice][value=10]').prop('checked',true);
+        }
+        if(region.data.advice=="11"){
+            $('[name=advice][value=11]').prop('checked',true);
+        }
+
 
 
         //0.1秒単位で丸め込んでる？
