@@ -181,7 +181,7 @@
         var wavesurfer = WaveSurfer.create({
             container: '#waveform',
             waveColor: 'black',
-            progressColor: '#555',
+            progressColor: '#878787',
             heigth: 400,
             pixelRation: 1,
             scrollParent: true,
@@ -230,7 +230,7 @@
 
         wavesurfer.on('ready', function() {
             wavesurfer.enableDragSelection({
-                color: randomColor(0.1)
+                color: randomColor(0.2)
 
             });
 
@@ -323,8 +323,8 @@
 
         //0.1秒単位で丸め込んでる？
         // ここはhtmlの各要素の表示されるためか。
-        (form.elements.start.value = Math.round(region.start * 100) / 100 ),
-        (form.elements.end.value = Math.round(region.end * 100) / 100);
+        (form.elements.start.value = Math.round(region.start * 10) / 10 ),
+        (form.elements.end.value = Math.round(region.end * 10) / 10);
         //トオヤマカンジform.elements.advice.value = region.advice;    
         form.elements.note.value = region.data.note || '';
 
@@ -384,9 +384,9 @@
         return (
             'rgba(' +
             [
-                ~~(Math.random() * 255),
-                ~~(Math.random() * 255),
-                ~~(Math.random() * 255),
+                200,
+                0,
+                0,
                 alpha || 1
             ] +
             ')'
@@ -431,7 +431,7 @@
     function loadRegions(regions) {
         console.log('loadregions',regions);//ここではadvice読み込まれてる。
         regions.forEach(function(region) {
-            region.color = randomColor(0.1);
+            region.color = randomColor(0.2);
             wavesurfer.addRegion(region);
         });
     }
