@@ -27,14 +27,18 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
-group :production do
-  gem "pg",  '0.20.0'
-  gem "rails_12factor"
-end
+# group :production do
+#   gem "pg",  '0.20.0'
+#   gem "rails_12factor"
+# end
 
-group :development, :test do
-  gem "sqlite3"
-end
+# group :development, :test do
+#   gem "sqlite3"
+# end
+
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3', group: [:development, :test]
+gem 'pg', group: :production
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
