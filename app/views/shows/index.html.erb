@@ -240,7 +240,7 @@
             pixelRation: 1,
             scrollParent: true,
             normalize: true,
-            minimap: true
+            //minimap: true
 
             // backend: 'MediaElemnt'
             // pluginsを加えると
@@ -337,6 +337,9 @@
     //regionをupdate or removeしたらsaveregions関数が発動。region-updated新しいのが追加されたときかな
     wavesurfer.on('region-updated', saveRegions);
     wavesurfer.on('region-removed', saveRegions);
+    wavesurfer.on('region-in', showNote);
+    wavesurfer.on('region-out', hiddenNote);
+
     /**
      * Edit annotation for a region.
      */
@@ -523,6 +526,17 @@
         });
     }
 
+    function showNote(region) {
+        if (!showNote.el) {
+            showNote.el = document.querySelector('#subtitle');
+        }
+        showNote.el.textContent = region.data.note || '–';
+    }
+
+
+    function hiddenNote(region) {
+        document.querySelector('#subtitle').textContent =  '–';
+    }
     // $('#export').on('click', function() {
     //     var fs = require('fs');
     //     fs.writeFile('hoge.json', JSON.stringify(localStorage.regions, null, '    '));
