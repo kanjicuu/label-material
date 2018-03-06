@@ -65,7 +65,7 @@
     ここから編集フォーム -->
 <div class="row">
     <div class="col-sm-12">
-        <form role="form" name="edit" style="opacity: 0; transition: opacity 100ms linear; margin: 30px 0;">
+        <form class="box11" role="form" name="edit" style="opacity: 0; transition: opacity 100ms linear; margin: 30px 0;">
             <!-- opacity: 0;で透明化　 -->
             <div class="form-group col-sm-6">
                 <label for="start">開始時間(秒)</label>
@@ -232,9 +232,10 @@
     //console.log('initialize');  
         var wavesurfer = WaveSurfer.create({
             container: '#waveform',
-            waveColor: 'black',
-            progressColor: '#878787',
+            waveColor: 'white',
+            progressColor: '#6495ED',
             heigth: 1000,
+            barWidth: 2,
             normalize: true,
             barHeight: 5,
             pixelRation: 1,

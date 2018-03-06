@@ -1714,3 +1714,129 @@ Processing by ShowsController#index as HTML
 Completed 200 OK in 346ms (Views: 326.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:27:05 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.8ms)
+  Rendered shows/index.html.erb within layouts/application (7.7ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 314ms (Views: 299.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:27:30 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (1.2ms)
+  Rendered shows/index.html.erb within layouts/application (9.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 80ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:28:00 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.5ms)
+  Rendered shows/index.html.erb within layouts/application (6.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:28:23 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.7ms)
+  Rendered shows/index.html.erb within layouts/application (5.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 64ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:33:15 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (1.5ms)
+  Rendered shows/index.html.erb within layouts/application (183.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 268ms (Views: 264.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:33:30 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.5ms)
+  Rendered shows/index.html.erb within layouts/application (6.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:34:24 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.7ms)
+  Rendered shows/index.html.erb within layouts/application (7.8ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 98ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:35:09 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (1.2ms)
+  Rendered shows/index.html.erb within layouts/application (11.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 168ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:41:24 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (3.6ms)
+  Rendered shows/index.html.erb within layouts/application (18.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+Completed 200 OK in 244ms (Views: 234.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:42:03 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.6ms)
+  Rendered shows/index.html.erb within layouts/application (12.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 111ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:42:46 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.9ms)
+  Rendered shows/index.html.erb within layouts/application (12.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:43:34 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (1.0ms)
+  Rendered shows/index.html.erb within layouts/application (12.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 257ms (Views: 171.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:43:55 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.4ms)
+  Rendered shows/index.html.erb within layouts/application (4.6ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 63ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-06 12:45:01 +0100
+Processing by ShowsController#index as HTML
+  Rendering shows/index.html.erb within layouts/application
+  Rendered shows/_explain.html.erb (0.6ms)
+  Rendered shows/index.html.erb within layouts/application (7.0ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+Completed 200 OK in 142ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
